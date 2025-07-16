@@ -1,0 +1,19 @@
+﻿@model List<Student>
+
+<link href="c:\users\min dator\source\repos\studieapplicationsolution\studieapplication\wwwroot\css\table.css" rel="stylesheet" />
+<table>
+    <tr>
+        <th>
+            Student Name
+        </th>
+    </tr>
+
+    @foreach(Student student in Model)
+    {
+        <tr>
+            <td>
+                @student.StudentName
+            </td>
+        </tr>
+    }
+</table>
