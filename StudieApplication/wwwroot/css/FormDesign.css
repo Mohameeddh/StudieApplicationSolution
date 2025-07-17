@@ -1,0 +1,41 @@
+﻿inpu[type-text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px;
+    solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    width: 10%;
+    background-color: dimgrey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: # red;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.col-25,
+.col-75 {
+    width: 100%;
+}
